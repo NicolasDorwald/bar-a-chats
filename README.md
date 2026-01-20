@@ -1,16 +1,104 @@
-# React + Vite
+### 📄 Pages / sections claires  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ - Contrôle avec barre nav
 
-Currently, two official plugins are available:
+#### 🏠 Accueil
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+présentation du bar
 
-## React Compiler
+ambiance
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#### 🐱 Les chats
 
-## Expanding the ESLint configuration
+liste
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+photos
+
+caractère
+
+#### 🍺 Menu
+
+bières
+
+repas
+
+#### ✉️ Contact
+
+formulaire (Formspree)
+
+horaires
+
+adresse
+
+Avec React Router, tu montres que tu sais structurer une app.
+
+```
+project/
+├─ public/
+│   ├─ index.html
+│   └─ favicon.svg
+│
+├─ src/
+│   ├─ main.jsx
+│   ├─ App.jsx
+│   ├─ index.css        ← styles globaux
+│   │
+│   ├─ components/
+│   │   ├─ Cart/
+│   │   │   ├─ Cart.jsx
+│   │   │   └─ Cart.css
+│   │   │
+│   │   ├─ Header/
+│   │   │   ├─ Header.jsx
+│   │   │   └─ Header.css
+│   │
+│   ├─ pages/           ← si app multi-pages
+│   │   └─ Home.jsx
+│   │
+│   ├─ assets/
+│   │   ├─ images/
+│   │   └─ fonts/
+│   │
+│   └─ utils/
+│       └─ helpers.js
+```
+
+```
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <>
+      <Header />
+      <main>
+        <Home />
+      </main>
+      <Footer />
+    </>
+  );
+}
+
+export default App;
+```
+```
+function Home() {
+  return (
+    <>
+      <section id="about">
+        <About />
+      </section>
+
+      <section id="services">
+        <Services />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
+    </>
+  );
+}
+
+```

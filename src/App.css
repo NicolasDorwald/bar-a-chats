@@ -1,42 +1,40 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    --vert-sauge: #7D8F69;          /* Titres, boutons principaux, icônes "nature" */
+    --terre-cuite: #B56547;         /* Accents, boutons d'appel à l'action */
+    --bois-clair: #dcc498;          /* Fonds de sections, encadrés de texte */
+    --blanc-casse: #F9F7F2;         /* Fond principal du site */
+    --anthracite-doux: #3E3E3E;     /* Texte principal */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html {
+    font-family: "Crimson Pro";
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.landing {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--blanc-casse); /* couleur de fond douce */
 }
 
-.card {
-  padding: 2em;
+.landing > img {
+    width: 60%;
+    min-width: 200px;
+    border-radius: 5px;
 }
 
-.read-the-docs {
-  color: #888;
+section {
+    width: 80%;
+    margin: auto;
 }

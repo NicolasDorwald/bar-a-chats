@@ -1,19 +1,17 @@
-import './Concept.css';
-import humanCat from '/images/human-cat.webp';
-import monstera from '/images/monstera.webp';
+import "./Concept.css";
 
 export default function Concept() {
-    return (  
-        <section className="concept">
-            <p>"Un refuge végétal au cœur de la ville."</p>
+  return (
+        <section>
+            <p>Un refuge végétal au cœur de la ville.</p>
             <div className="slogan">
                 Bien-être, Bienveillance & Botanique.
                 Notre mission est simple : offrir à nos chats un foyer aimant en attendant leur 
                 famille pour la vie, et vous offrir un espace de déconnexion totale.
             </div>
             <div className="concept-img">
-                <img src={humanCat} alt="Image d'une femme avc un chat sur les genoux"></img>
-                <img src={monstera} alt="Image d'une femme avc un chat sur les genoux"></img>
+                <img src="/images/human-cat.webp" alt="Image d'une femme avec un chat sur les genoux" />
+                <img src="/images/monstera.webp" alt="Plante Monstera" />
             </div>
             <div className='snippets'>
                 <article>
@@ -26,9 +24,9 @@ export default function Concept() {
                 </article>
                 <article>
                     <h4>Côté Saveurs :</h4> Des produits locaux, bio et faits maison pour accompagner vos 
-                    moments de lecture ou de travail."
+                    moments de lecture ou de travail.
                 </article>
             </div>
         </section>
-    );
+  );
 }

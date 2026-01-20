@@ -4,7 +4,7 @@
         "name": "Edgar",
         "age": "15 ans",
         "caractere": "Mâle tigré, calme et vieux",
-        "image": "/bar-a-chats/images/edgar-tigre.webp",
+        "image": "/images/cats/edgar-tigre.webp",
         "description": "Edgar est le sage du Coin des Chats. Avec ses 15 ans, il se déplace lentement mais avec dignité, et aime observer la vie autour de lui depuis un coussin moelleux. Son pelage tigré raconte ses nombreuses années d’aventures, et ses yeux pleins de douceur invitent les visiteurs à prendre leur temps, savourer un café et se laisser bercer par son ronronnement rassurant."
     },
     {
@@ -12,7 +12,7 @@
         "name": "Ficelle",
         "age": "3 ans",
         "caractere": "Noir et blanc, joueuse et sociable",
-        "image": "/bar-a-chats/images/ficelle-bw.webp",
+        "image": "/images/cats/ficelle-bw.webp",
         "description": "Ficelle est la petite farceuse du café. Toujours en mouvement, elle adore courir entre les tables et se faufiler dans les coins pour surprendre les visiteurs. Son pelage noir et blanc contraste joliment avec les coussins et les plantes, et son caractère sociable fait d’elle une habituée des câlins et des caresses. Une boule d’énergie qui apporte rires et bonne humeur au Coin des Chats."
     },
     {
@@ -20,7 +20,7 @@
         "name": "Kipp",
         "age": "5 ans",
         "caractere": "Roux, Rox n’Croquets",
-        "image": "/bar-a-chats/images/kipp-roux.webp",
+        "image": "/images/cats/kipp-roux.webp",
         "description": "Kipp est le gourmand du café. Toujours à l’affût d’une friandise ou d’un croquet oublié, il se faufile silencieusement entre les coussins et la platine vinyle. Son pelage roux flamboyant reflète son tempérament joueur et espiègle. Malgré sa petite obsession pour les snacks, il adore se blottir contre les visiteurs et partager un moment de calme et de ronronnements chaleureux."
     },
     {
@@ -28,7 +28,7 @@
         "name": "Merida",
         "age": "2 ans",
         "caractere": "Calico",
-        "image": "/bar-a-chats/images/merida-calico.webp",
+        "image": "/images/cats/merida-calico.webp",
         "description": "Merida est la soeur de Callie, une aventurière au pelage multicolore. Curieuse et malicieuse, elle explore chaque recoin du café, grimpant sur les arbres à chats et se glissant entre les coussins. Elle aime surprendre les visiteurs et disparaître pour quelques instants, avant de revenir se lover sur un coussin doux. Sa présence apporte un brin de magie et de fantaisie dans l’atmosphère cosy du bar."
     },
     {
@@ -36,7 +36,7 @@
         "name": "Midnight",
         "age": "4 mois",
         "caractere": "Tigré",
-        "image": "/bar-a-chats/images/midnight-tigre.webp",
+        "image": "/images/cats/midnight-tigre.webp",
         "description": "Midnight est le plus jeune résident du Coin des Chats, un petit tigré plein d’énergie et de curiosité. Toujours en mouvement, il aime découvrir de nouveaux coins, jouer avec les jouets et se faufiler partout. Malgré sa jeunesse, il sait se montrer adorable et adore les caresses quand il est fatigué. Sa vitalité apporte un souffle de fraîcheur et de gaieté à l’ensemble du café."
     },
     {
@@ -44,7 +44,7 @@
         "name": "Mouss",
         "age": "8 ans",
         "color": "Gris chartreux",
-        "image": "/bar-a-chats/images/mouss-gris.webp",
+        "image": "/images/cats/mouss-gris.webp",
         "description": "Mouss La Sieste est le maître du repos. Avec son pelage gris doux et ses yeux paisibles, il passe ses journées à somnoler dans les coins les plus confortables du café. Sa présence calme et rassurante est parfaite pour les visiteurs qui cherchent un moment de détente. Il n’aime pas être dérangé quand il dort, mais sa compagnie silencieuse fait du Coin des Chats un endroit véritablement relaxant."
     },
     {
@@ -52,7 +52,7 @@
         "name": "Pistach",
         "age": "6 ans",
         "color": "Tigrée, élégante, poil long",
-        "image": "/bar-a-chats/images/pistach-tigre.webp",
+        "image": "/images/cats/pistach-tigre.webp",
         "description": "Pistach est la dame sophistiquée du café. Son pelage tigré et son port élégant lui donnent une allure royale. Elle aime se promener lentement entre les tables, observer les visiteurs et choisir avec soin ses moments de câlins. Pistach dégage une atmosphère de raffinement et de douceur, et sa présence transforme chaque instant au Coin des Chats en un moment élégant et cosy."
     },
     {
@@ -60,7 +60,7 @@
         "name": "Onyx",
         "age": "11 ans",
         "color": "Chat noir de ..mage",
-        "image": "bar-a-chats/images/onyx-black.webp",
+        "image": "/images/cats/onyx-black.webp",
         "description": "Onyx est le chat mystérieux et élégant du Coin des Chats. Toujours attentif et légèrement réservé, il se glisse silencieusement entre les coussins et les plantes. Son pelage sombre contraste joliment avec les lumières douces du café, et il aime observer les visiteurs avec un regard pénétrant. Malgré son allure sophistiquée, il peut se montrer câlin quand il sent qu’on le mérite… et il adore se lover sur une bonne couverture près de la platine vinyle."
   },
     {
@@ -68,7 +68,7 @@
         "name": "Callie",
         "age": "2  ans",
         "color": "Calico",
-        "image": "bar-a-chats/images/callie.webp",
+        "image": "/images/cats/callie.webp",
         "description": "Callie est la rêveuse du Coin des Chats. Moins aventurière que sa sœur Merida, elle aime se percher sur un coussin ou sur l’arbre à chats pour observer la pièce avec un regard doux et attentif. Son pelage multicolore brille sous la lumière relaxante, et elle adore les caresses lentes et les câlins prolongés. Callie apporte une atmosphère calme et chaleureuse, parfaite pour les visiteurs qui cherchent un moment de détente au milieu de la douceur du café."
     }
 ]
