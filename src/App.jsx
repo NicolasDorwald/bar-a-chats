@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import CatsList from "./pages/CatsList";
 import Concept from "./pages/Concept";
 import Policy from "./pages/Policy";
