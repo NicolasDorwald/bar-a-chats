@@ -1,0 +1,12 @@
+.concept-img {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.concept-img > img {
+    width: 50%;
+}

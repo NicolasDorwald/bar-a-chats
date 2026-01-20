@@ -1,35 +1,47 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+function LandingPage({ onEnter }) {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="landing" onClick={onEnter}>
+      <img src="/images/room.webp" alt="Bienvenue" className="landing-img" />
+      <h1>Cliquez sur le chat pour entrer</h1>
+    </div>
+  );
 }
 
-export default App
+function Home() {
+  return <h2>Accueil du Bar à Chats</h2>;
+}
+
+function App() {
+  const [entered, setEntered] = useState(false);
+
+  const handleEnter = () => {
+    setEntered(true);
+  };
+
+  if (!entered) {
+    return <LandingPage onEnter={handleEnter} />;
+  }
+
+  return (
+    <Router>
+      <nav>
+        <Link to="/">Accueil</Link> | 
+        <Link to="/concept">Concept</Link> |     
+        <Link to="/cats">Chats</Link> | 
+        <Link to="/contact">Contact</Link> | 
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/concept" element={<h2>Le concept</h2>} />        
+        <Route path="/cats" element={<h2>Liste des chats ici</h2>} />
+        <Route path="/contact" element={<h2>Contact</h2>} />        
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;

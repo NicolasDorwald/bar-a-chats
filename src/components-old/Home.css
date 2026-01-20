@@ -1,0 +1,25 @@
+.upper {
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    /* max-height: 400px; */
+}
+
+.upper > img {
+    width: 50%;
+    border-radius: 2%;
+}
+
+.snippets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+article {
+    padding: 1rem;
+    text-align: center;
+}
+
+.present > h3 {
+    text-align: right;
+}
