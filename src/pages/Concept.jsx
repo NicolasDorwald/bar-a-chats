@@ -1,3 +1,5 @@
+import humanCat from '../assets/human-cat.webp';
+import monstera from '../assets/monstera.webp';
 import "./Concept.css";
 
 export default function Concept() {
@@ -10,8 +12,8 @@ export default function Concept() {
                 famille pour la vie, et vous offrir un espace de déconnexion totale.
             </div>
             <div className="concept-img">
-                <img src="/images/human-cat.webp" alt="Image d'une femme avec un chat sur les genoux" />
-                <img src="/images/monstera.webp" alt="Plante Monstera" />
+                <img src={humanCat} alt="Image d'une femme avec un chat sur les genoux" />
+                <img src={monstera} alt="Plante Monstera" />
             </div>
             <div className='snippets'>
                 <article>

@@ -1,5 +1,6 @@
 import "./CatsCards.Css";
-import catsData from '../data/cats.json';
+// import catsData from '../data/cats.json';
+import { catsData } from '../data/catsData'; // chemin selon ton projet
 
 export default function CatsCards() {
     return (

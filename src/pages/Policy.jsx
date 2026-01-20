@@ -1,3 +1,6 @@
+import coffeePic from '../assets/coffee-pic.webp';
+import cuisine from '../assets/cuisine.webp';
+import sofa2 from '../assets/sofa-2.webp';
 import "./Policy.css";
 
 export default function Policy () {
@@ -5,9 +8,9 @@ export default function Policy () {
         <section>
             <h2>🌿 Derrière le projet : Une passion pour le vivant</h2>
             <div className="policy-img">
-                <img src="/images/coffee-pic.webp" alt="Image d'une femme avec un chat sur les genoux" />
-                <img src="/images/cuisine.webp" alt="Photo d'une plante Monstera" />
-                <img src="/images/sofa-2.webp" alt="Photo d'une pièce"/>
+                <img src={coffeePic} alt="Image d'une femme avec un chat sur les genoux" />
+                <img src={cuisine} alt="Photo d'une plante Monstera" />
+                <img src={sofa2} alt="Photo d'une pièce"/>
             </div>
         <h3>Pourquoi "Le Coin des Chats" ?</h3>
     

@@ -5,13 +5,14 @@ import Concept from "./pages/Concept";
 import Policy from "./pages/Policy";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar"
+import room from './assets/room.webp';
 import "./App.css";
 
 function LandingPage({ onEnter }) {
     return (
         <div className="landing" onClick={onEnter}>
             <h2>Cliquez pour entrer</h2>
-            <img src="/images/room.webp" alt="Bienvenue" className="landing-img" />
+            <img src={room} alt="Bienvenue" className="landing-img" />
         </div>
     );
 }
