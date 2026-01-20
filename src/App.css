@@ -1,9 +1,4 @@
 #root {
-    /* max-width: 1280px; */
-    /* margin: 0 auto;
-    padding: 2rem;
-    text-align: center; */
-
     --vert-sauge: #7D8F69;          /* Titres, boutons principaux, icônes "nature" */
     --terre-cuite: #B56547;         /* Accents, boutons d'appel à l'action */
     --bois-clair: #dcc498;          /* Fonds de sections, encadrés de texte */
@@ -13,6 +8,11 @@
 
 html {
     font-family: "Crimson Pro";
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .landing {
@@ -35,7 +35,6 @@ html {
 }
 
 section {
-    background-color: red;
     width: 80%;
     margin: auto;
 }

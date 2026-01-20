@@ -1,4 +1,4 @@
-.concept-img {
+/* .concept-img {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -9,4 +9,107 @@
 
 .concept-img > img {
     width: 50%;
+} */
+
+/* Section principale de la page concept */
+section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: var(--blanc-casse);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Petit texte d’introduction */
+section p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--anthracite-doux);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Slogan / phrase clé */
+.slogan {
+  background-color: var(--bois-clair);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--anthracite-doux);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Section images concept */
+.concept-img {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.concept-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.concept-img img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Articles "snippets" */
+.snippets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.snippets article {
+  background-color: var(--bois-clair);
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.snippets article h4 {
+  color: var(--vert-sauge);
+  margin-bottom: 0.5rem;
+}
+
+.snippets article p {
+  color: var(--anthracite-doux);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .concept-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .snippets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+}
+
+@media (max-width: 550px) {
+  .snippets {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
 }

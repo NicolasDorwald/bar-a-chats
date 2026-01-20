@@ -1,3 +1,5 @@
+import "./Policy.css";
+
 export default function Policy () {
     return (
         <section>

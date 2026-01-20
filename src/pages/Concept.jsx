@@ -1,3 +1,5 @@
+import "./Concept.css";
+
 export default function Concept() {
   return (
         <section>
