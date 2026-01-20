@@ -1,1 +1,0 @@
-"Merida est notre petite exploratrice. Si vous ne la voyez pas sur son arbre à chat, c'est qu'elle tente sûrement de se faufiler en cuisine ou de vérifier si la porte de secours est bien fermée. Son pelage en puzzle est à l'image de son énergie : un peu partout à la fois !"

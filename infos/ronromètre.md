@@ -1,1 +1,0 @@
-Penses-tu intégrer un "Ronromètre" sur ton site ? Une petite jauge amusante en bas de page qui indique "Niveau de détente actuel au café : 95% (Ficus dort profondément)". C'est le genre de petit détail qui fait sourire les visiteurs !
