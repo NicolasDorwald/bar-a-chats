@@ -1,7 +1,7 @@
-import './Cats.css';
-import catsData from './data/cats.json'; // importe le JSON
+// import './Cats.css';
+import catsData from '../data/cats.json'; // importe le JSON
 
-export default function Cats() {
+export default function CatsCards() {
     return (
         <section className="cats-list">
             {catsData.map((cat) => (

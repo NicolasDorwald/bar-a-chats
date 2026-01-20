@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--bois-clair);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar a {
+  color: var(--anthracite-doux);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: var(--vert-sauge);
+}
