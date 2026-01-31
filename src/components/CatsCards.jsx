@@ -1,6 +1,6 @@
 import "./CatsCards.Css";
 // import catsData from '../data/cats.json';
-import { catsData } from '../data/catsData'; // chemin selon ton projet
+import { catsData } from '../data/catsData';
 
 export default function CatsCards() {
     return (
@@ -11,7 +11,7 @@ export default function CatsCards() {
                     <div className="cat-info">
                         <h3>{cat.name}</h3>
                         <p><strong>Âge :</strong> {cat.age}</p>
-                        <p><strong>Robe :</strong> {cat.color}</p>
+                        <p><strong>Robe :</strong> {cat.caractere}</p>
                     </div>
                 </article>
             ))}

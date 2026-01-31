@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: var(--blanc-casse); /* couleur de fond douce */
+    background-color: var(--blanc-casse); 
 }
 
 .landing > img {
